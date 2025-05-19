@@ -23,7 +23,21 @@ npm install
 ```bash
 npm run dev
 ```
+📁 Project Structure
 
+```bash
+Munis/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── App.jsx
+│   ├── main.jsx
+├── index.html
+├── tailwind.config.js
+├── postcss.config.js
+├── package.json
+└── README.md
 
-
+```
 
