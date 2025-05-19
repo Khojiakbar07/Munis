@@ -10,3 +10,20 @@ This is a modern frontend project built using [Vite](https://vitejs.dev/), [Reac
 
 ```bash
 git clone https://github.com/Khojiakbar07/Munis.git
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. 🚀 Run the Development Server
+
+```bash
+npm run dev
+```
+
+
+
+
