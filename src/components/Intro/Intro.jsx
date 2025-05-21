@@ -1,6 +1,7 @@
 import "./Intro.scss";
 import { images } from "../../constants/index.js";
 import {NavbarDemo} from "../Navbar/Navbar.jsx";
+import {Navbar} from "../ui/resizable-navbar.jsx";
 
 const Intro = () => {
     return (
