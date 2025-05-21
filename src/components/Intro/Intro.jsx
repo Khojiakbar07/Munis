@@ -1,12 +1,11 @@
 import "./Intro.scss";
 import { images } from "../../constants/index.js";
-import {NavbarDemo} from "../Navbar/Navbar.jsx";
-import {Navbar} from "../ui/resizable-navbar.jsx";
+import Navbar from "../Navbar/Navbar.jsx";
 
 const Intro = () => {
     return (
         <div className="intro-section">
-            <NavbarDemo />
+            <Navbar />
 
             <div className="content-container">
                 {/* Image collage - left side */}
