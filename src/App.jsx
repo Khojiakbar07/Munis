@@ -1,18 +1,14 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import ProductsComponent from "./Components/Products/ProductsComponent";
-import './App.css'
+import {Route, Routes} from "react-router-dom";
+import Home from "./pages/Home.jsx";
 
 function App() {
-  return (
-    <Router>
-       {/* Main Content */}
-      <main>
-        <Routes>
-          <Route path="/products" element={<ProductsComponent />} />
-        </Routes>
-      </main>  
-    </Router>
-  )
+    return (
+        <div className="app__bg">
+            <Routes>
+                <Route path="/" element={<Home/>}/>
+            </Routes>
+        </div>
+    );
 }
 
-export default App
+export default App;
