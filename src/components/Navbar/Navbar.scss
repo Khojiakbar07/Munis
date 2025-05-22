@@ -41,6 +41,42 @@
     }
   }
 
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .lang-switcher {
+    width: 60px;
+    height: 50px;
+    max-width: 100%;
+    max-height: 100%;
+    border: 1px solid white;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 18px;
+    text-transform: uppercase;
+    appearance: none;
+
+    &:hover {
+      background-color: #f0e68c;
+      color: #1a4731;
+      border-color: #f0e68c;
+    }
+
+    option {
+      background-color: #1a4731;
+      color: white;
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
+
   .creator-button {
     width: 200px;
     height: 50px;
@@ -53,7 +89,8 @@
     background: transparent;
     cursor: pointer;
     transition: all 0.3s ease;
-    font-size: 14px;
+    font-size: 16px;
+    text-transform: uppercase;
 
     &:hover {
       background-color: #f0e68c;
