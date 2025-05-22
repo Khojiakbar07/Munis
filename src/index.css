@@ -11,6 +11,10 @@
     --color-white: #ffffff;
 }
 
+body {
+    background-color: #1a4731 !important;
+}
+
 .left-container {
     /*max-width: 1320 px;*/
     width: 100%;

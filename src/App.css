@@ -1,3 +1,8 @@
+body {
+    background-color: #1a4731;
+    color: white; /* optional: makes all text white for contrast */
+}
+
 body::-webkit-scrollbar {
     width: 4px;
 }
@@ -12,6 +17,9 @@ body::-webkit-scrollbar-track {
 }
 
 .app__bg {
-  background-size: cover;
-  background: #fff repeat fixed center;
+    background-color: #1a4731;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    min-height: 100vh;
 }
